@@ -1,0 +1,12 @@
+l = ["harry", "Soham", "Sachin", "Rahul"]
+
+for name in l:
+    if (name.startswith("S")):
+        print("Hello " + name)
+
+
+#OR 
+
+for name in l:
+    if name.startswith("S"):
+        print(f"Hello, {name}")
